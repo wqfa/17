@@ -14,7 +14,7 @@ if not onwer in db.get('db')['onwer']:
     data = db.get('db')
     data['onwer'].append(onwer)
     db.set('db',data)
-bot = telebot.TeleBot('XXX') #TOKEN
+bot = telebot.TeleBot('6656570562:AAHqyT43mPOa3ajnt1l8XRDeBDphtqWuW5M') #TOKEN
 @bot.message_handler(commands = ['start'])
 def staty(m):
  status = db.get("status")
