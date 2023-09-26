@@ -11,8 +11,8 @@ import asyncio
 #فكأنني بالرمح أضرب قائلاً الأرضُ أرضي والزمانُ زماني
 
 
-api_id = "29510141"
-api_hash = "14c074a5aed49dc7752a9f8d54cf4ad4"
+api_id = "20399469"
+api_hash = ""154dbb8114573c13387d0c7fb9d0fde6
 alEx = TelegramClient("MBot",api_id,api_hash).start()
 @alEx.on(events.NewMessage(pattern=r"^/start$"))
 async def StartSourceAlex(message):
